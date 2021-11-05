@@ -268,3 +268,5 @@ AND JSON_VALUE(JSON_QUERY(event_data,'$.shipments[10]')) IS NOT NULL
 AND A.shipment IS NULL
 and ds >= '2021-01-01'
 and ds < '2021-08-01')
+
+--- cambio de prueba
